@@ -1,9 +1,9 @@
-package twoSum;
+package twosum;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static Constant.Constant.HASHMAP_INIT_NUM;
+import static constant.Constant.HASHMAP_INIT_NUM;
 
 /**
  * @author lazytime

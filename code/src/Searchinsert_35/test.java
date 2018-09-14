@@ -1,8 +1,6 @@
-package Searchinsert_35;
+package src.twosum_1.Searchinsert_35;
 
 import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.Random;
 
 public class test {

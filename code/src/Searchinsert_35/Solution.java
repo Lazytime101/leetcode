@@ -1,4 +1,4 @@
-package Searchinsert_35;
+package src.Searchinsert_35;
 
 class Solution {
 

@@ -1,4 +1,4 @@
-package longest_substring;
+package src.longest_substring_3;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -50,6 +50,9 @@ public class longestSubstring {
      * 在滑动之前可以确保窗口内的部分没有重复，并已经更新了最大值
      * 所以可以向右边进行尝试（删去左侧的一个点）
      * 最多时间复杂性（o（2n）） 空间复杂性 O(min(m, n)) m代表最后string/set.length
+     *
+     *
+     * 超越了50%的算法
      */
     public int lengthOfLongestSubstring2(String s) {
         int n = s.length();
@@ -73,6 +76,8 @@ public class longestSubstring {
      * @param s
      * @return int
      * 和上面思路一致，但我们可以跳的更快一些，a[i，j]中有重复，找到j对应的j'，此时i应该从j'开始尝试
+     * only beats 20%
+     * 将HashMap 初始值提高到128 beats 44%
      */
         public int lengthOfLongestSubstring3(String s) {
             int n = s.length(), MaxLength = 0;
@@ -88,6 +93,23 @@ public class longestSubstring {
             }
             return MaxLength;
         }
+
+
+    /**
+     * @param s
+     * @return
+     */
+    public int lengthOfLongestSubstring4(String s) {
+        int n = s.length(), ans = 0;
+        int[] index = new int[128]; // current index of character
+        // try to extend the range [i, j]
+        for (int j = 0, i = 0; j < n; j++) {
+            i = Math.max(index[s.charAt(j)], i);
+            ans = Math.max(ans, j - i + 1);
+            index[s.charAt(j)] = j + 1;
+        }
+        return ans;
+    }
     
 
 

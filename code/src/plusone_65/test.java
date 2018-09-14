@@ -1,4 +1,4 @@
-package plusone_65;
+package src.plusone_65;
 
 public class test {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package src.twosum_1.Searchinsert_35;
+package src.Searchinsert_35;
 
 import java.util.Arrays;
 import java.util.Random;

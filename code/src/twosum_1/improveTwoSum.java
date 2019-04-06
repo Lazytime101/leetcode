@@ -36,7 +36,7 @@ public class improveTwoSum {
      * 效率 o（n）
      */
     public int[] twoSum2(int[] nums, int target) {
-        Map<Integer, Integer> map = new HashMap<>(HASHMAP_INIT_NUM);
+        Map<Integer, Integer> map = new HashMap(HASHMAP_INIT_NUM);
         for (int i = 0; i < nums.length; i++) {
             map.put(nums[i], i);
         }
@@ -45,6 +45,19 @@ public class improveTwoSum {
             if (map.containsKey(complement) && map.get(complement) != i) {
                 return new int[]{i, map.get(complement)};
             }
+        }
+        throw new IllegalArgumentException("No two sum solution");
+    }
+
+    //一定程度上降低次数
+    public int[] twoSum3(int[] nums, int target){
+        Map<Integer,Integer> map = new HashMap<Integer, Integer>();
+        for(int i = 0;i<nums.length;i++){
+            int rest = target-nums[i];
+            if(map.get(rest)!=null){
+                return new int[]{i,map.get(rest)};
+            }
+            map.put(nums[i],i);
         }
         throw new IllegalArgumentException("No two sum solution");
     }

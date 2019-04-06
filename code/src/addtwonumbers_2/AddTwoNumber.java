@@ -13,7 +13,7 @@ public class AddTwoNumber {
      * @return ListNode
      * 两个链表对应相加，溢出进位
      */
-    public ListNode addTwoNumbers(ListNode node1, ListNode node2) {
+    public static ListNode addTwoNumbers(ListNode node1, ListNode node2) {
         ListNode node = new ListNode(0);
         ListNode n1 = node1, n2 = node2, temp= node;
         int sum = 0;
@@ -32,5 +32,17 @@ public class AddTwoNumber {
         }
         if (sum / 10 != 0) temp.next = new ListNode(1);
         return node.next;
+    }
+
+    public static void main(String[] args) {
+        ListNode listNode1 = new ListNode(9);
+        listNode1.next = new ListNode(0);
+        ListNode listNode2 = new ListNode(1);
+        listNode2.next = new ListNode(3);
+        ListNode sum =addTwoNumbers(listNode1,listNode2);
+        while(sum !=null){
+            System.out.println(sum.val);
+            sum = sum.next;
+        }
     }
 }

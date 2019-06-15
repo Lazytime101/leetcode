@@ -13,7 +13,7 @@ public class AddTwoNumber {
      * @return ListNode
      * 两个链表对应相加，溢出进位
      */
-    public static ListNode addTwoNumbers(ListNode node1, ListNode node2) {
+    public static  ListNode  addTwoNumbers(ListNode node1, ListNode node2) {
         ListNode node = new ListNode(0);
         ListNode n1 = node1, n2 = node2, temp= node;
         int sum = 0;
@@ -45,4 +45,5 @@ public class AddTwoNumber {
             sum = sum.next;
         }
     }
+
 }

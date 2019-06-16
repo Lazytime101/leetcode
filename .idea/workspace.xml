@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17aa7167-8cd4-4176-9bc9-37079311cb4b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/code/src/swapNodesInPairs_24/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/RemoveDuplicatesFromSortedList_83/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/swapNodesInPairs_24/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,15 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/src/longestPalindrome_5/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/src/deleteTheLastnNode_19/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -94,20 +86,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/src/swapNodesInPairs_24/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="19" column="24" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="137">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/java/java/src.zip!/java/lang/String.java">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/src/swapNodesInPairs_24/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="154">
+                <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-end-line="8" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/src/RemoveDuplicatesFromSortedList_83/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13288">
-              <caret line="655" column="16" selection-start-line="655" selection-start-column="16" selection-end-line="655" selection-end-column="16" />
+            <state relative-caret-position="323">
+              <caret line="22" column="7" selection-start-line="21" selection-start-column="2" selection-end-line="22" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -143,6 +147,8 @@
         <option value="$PROJECT_DIR$/code/src/mergeTwoListNode_21/Solution.java" />
         <option value="$PROJECT_DIR$/code/src/deleteTheLastnNode_19/readme.md" />
         <option value="$PROJECT_DIR$/code/src/swapNodesInPairs_24/Solution.java" />
+        <option value="$PROJECT_DIR$/code/src/swapNodesInPairs_24/readme.md" />
+        <option value="$PROJECT_DIR$/code/src/RemoveDuplicatesFromSortedList_83/Solution.java" />
       </list>
     </option>
   </component>
@@ -201,7 +207,7 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="swapNodesInPairs_24" type="462c0819:PsiDirectoryNode" />
+              <item name="RemoveDuplicatesFromSortedList_83" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -349,7 +355,7 @@
       <workItem from="1556207424630" duration="1419000" />
       <workItem from="1556213068625" duration="3154000" />
       <workItem from="1557101171530" duration="2177000" />
-      <workItem from="1560581765854" duration="8954000" />
+      <workItem from="1560581765854" duration="10636000" />
     </task>
     <servers />
   </component>
@@ -359,7 +365,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27582000" />
+    <option name="totallyTimeSpent" value="29264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -407,20 +413,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/java/java/src.zip!/java/util/AbstractMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3124">
-          <caret line="142" column="19" selection-start-line="142" selection-start-column="19" selection-end-line="142" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/src/twosum_1/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/helper/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -772,8 +764,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/src/swapNodesInPairs_24/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="137">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/swapNodesInPairs_24/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="154">
+            <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/RemoveDuplicatesFromSortedList_83/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="7" selection-start-line="21" selection-start-column="2" selection-end-line="22" selection-end-column="7" />
         </state>
       </provider>
     </entry>

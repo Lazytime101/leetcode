@@ -61,4 +61,27 @@ public class improveTwoSum {
         }
         throw new IllegalArgumentException("No two sum solution");
     }
+
+        //test code is useful
+        //first finish work
+        //second test boundary
+        //third reduce no useful code  to improve
+
+        public int[] twoSum4(int[] nums, int target) {
+            HashMap<Integer,Integer> map = new HashMap(100);
+            for(int i=0;i<nums.length;i++){
+                map.put(nums[i],i);
+            }
+
+            for(int i=0;i<nums.length;i++){
+                int m = target-nums[i];
+                Integer other = map.get(m);
+                if(other!=null&&other!=i){
+                    return new int[]{i,other};
+                }
+            }
+
+            return null;
+        }
+
 }

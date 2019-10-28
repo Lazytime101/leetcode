@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17aa7167-8cd4-4176-9bc9-37079311cb4b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/code/src/ContainerWithMostWater_11/ContainerWithMostWater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/code/src/twosum_1/improveTwoSum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-418">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,8 +72,8 @@
       <file leaf-file-name="ContainerWithMostWater.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/src/ContainerWithMostWater_11/ContainerWithMostWater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="39" column="23" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="39" selection-end-column="23" />
+            <state relative-caret-position="345">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
@@ -174,9 +173,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1039" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -361,7 +361,7 @@
       <workItem from="1556213068625" duration="3154000" />
       <workItem from="1557101171530" duration="2177000" />
       <workItem from="1560581765854" duration="12927000" />
-      <workItem from="1564846223886" duration="2777000" />
+      <workItem from="1564846223886" duration="4089000" />
     </task>
     <servers />
   </component>
@@ -371,11 +371,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34332000" />
+    <option name="totallyTimeSpent" value="35644000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -387,10 +386,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32904148" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932975" visible="true" weight="0.24821684" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49932975" visible="true" weight="0.24821684" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22319035" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22319035" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -762,7 +761,7 @@
     <entry file="file://$PROJECT_DIR$/code/src/twosum_1/improveTwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-418">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -788,8 +787,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/src/ContainerWithMostWater_11/ContainerWithMostWater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="39" column="23" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="39" selection-end-column="23" />
+        <state relative-caret-position="345">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>

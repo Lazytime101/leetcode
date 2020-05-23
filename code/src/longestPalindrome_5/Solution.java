@@ -1,6 +1,10 @@
 package src.longestPalindrome_5;
 
 public class Solution {
+    //最大回文子串
+    //Brute Force 方法  找到每个起点和终点之间是否是回文子串
+    //o(n^3)
+
     public String longestPalindrome(String s) {
         int n = s.length();
         String res = "";

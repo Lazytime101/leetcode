@@ -41,6 +41,7 @@ release.properties
 *.iws
 .idea/
 out/
+.idea/workspace.xml
 
 # Mac
 .DS_Store

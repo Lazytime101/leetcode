@@ -72,8 +72,41 @@ class Solution {
     }
 
 
+    public static int myAtoi1(String str) {
+        int index = 0;
+        int total = 0;
+        int sign = 1;
+        if (str.length() == 0) return 0;
+
+        //step 1 跳过空
+        while (index < str.length() && str.charAt(index) == ' ')
+            index++;
+
+        if (index == str.length()) return 0;
+
+        //step 2 get sign
+        if (str.charAt(index) == '+' || str.charAt(index) == '-') {
+            sign = str.charAt(index) == '+' ? 1 : -1;
+            index++;
+        }
+
+        //step 3
+        while (index < str.length()) {
+            int n = str.charAt(index) - '0';
+            if (n < 0 || n > 9) break;
+
+            if (Integer.MAX_VALUE / 10 < total || Integer.MAX_VALUE / 10 == total && Integer.MAX_VALUE % 10 < n) {
+                return sign == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
+            }
+            total = total * 10 + n;
+            index ++;
+        }
+        return sign * total;
+    }
+
+
     public static void main(String[] args) {
-        String str = "2147483646";
-        System.out.println(myAtoi(str));
+        String str = "  -42";
+        System.out.println(myAtoi1(str));
     }
 }

@@ -1,4 +1,4 @@
-package src.other;
+package src.jianzhioffer;
 
 import java.util.ArrayList;
 import java.util.Arrays;

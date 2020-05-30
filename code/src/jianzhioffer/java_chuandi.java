@@ -30,6 +30,21 @@ public class java_chuandi {
         int num = 5;
         addNum(num);
         System.out.println(num);
+
+
+        //基础类型
+        int [] c={1,2};
+        int b=3;
+        c[0]=b;
+        b=5;
+        System.out.println(c[0]);
+
+        //引用类型,str指向移走不影响原值
+        String[] d = {"a","d"};
+        String str = "d";
+        d[0] =str;
+        str="charge";
+        System.out.println(d[0]);
     }
     //提供了改变对象方法
     static void add(List<Integer> list) {
@@ -39,7 +54,7 @@ public class java_chuandi {
     static void append(String str) {
         str += "is a";
     }
-    //不改变原参数
+    //不改变原参数,只是创建了局部变量
     static void addNum(int a) {
         a = a + 10;
     }

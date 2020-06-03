@@ -4,6 +4,12 @@ import helper.ListNode;
 
 public class Solution {
 
+    /**
+     * @param head
+     * @param n
+     * @return
+     * 分隔n个节点，保证找到第leangth - n 个元素
+     */
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode pre = new ListNode(0);
         ListNode start = pre;

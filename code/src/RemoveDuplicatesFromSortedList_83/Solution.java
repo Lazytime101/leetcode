@@ -25,4 +25,23 @@ public class Solution {
         return head.val == head.next.val ? head.next : head;
     }
 
+
+    /**
+     * @param a
+     * @return
+     * 有序数组删除相同元素
+     */
+    public static int remove(int[] a){
+        if(a.length==0){
+            return 0;
+        }
+        int i =0;
+        for(int j =1;j<a.length;j++)
+        {
+            if(a[i]!=a[j])
+                a[++i]= a[j];
+        }
+        return i+1;
+    }
+
 }

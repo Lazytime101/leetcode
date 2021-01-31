@@ -1,6 +1,7 @@
 package src.twosum_1;
 
 import javax.swing.tree.TreeNode;
+import java.util.Arrays;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Map;
@@ -85,5 +86,27 @@ public class improveTwoSum {
 
             return null;
         }
+
+    public int[] twoSum(int[] numbers, int target) {
+        int[] res = new int[2];
+        if (numbers == null || numbers.length < 2)
+            return null;
+        Arrays.sort(numbers);
+        int l = 0;
+        int r = numbers.length - 1;
+        while (l < r) {
+            if (numbers[l] + numbers[r] == target) {
+                res[0] = numbers[l];
+                res[1] = numbers[r];
+                return res;
+            } else if (numbers[l] + numbers[r] > target) {
+                r--;
+            } else {
+                l++;
+            }
+        }
+        return null;
+
+    }
 
 }

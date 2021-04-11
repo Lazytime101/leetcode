@@ -9,6 +9,13 @@ import java.util.Map;
 import static constant.Constant.HASHMAP_INIT_NUM;
 
 /**
+ *
+ * Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+ *
+ * You may assume that each input would have exactly one solution, and you may not use the same element twice.
+ *
+ * You can return the answer in any order.
+ *
  * @author lazytime
  */
 public class improveTwoSum {
@@ -16,7 +23,8 @@ public class improveTwoSum {
      * @param nums
      * @param target
      * @return int[]
-     * 主要是根据增长规则，减少了比较次数
+     *
+     * 优化点是根据增长规则，减少了比较次数
      * 时间复杂性 n^2，空间复杂性o()
      */
     public int[] twoSum1(int[] nums, int target) {
@@ -53,12 +61,13 @@ public class improveTwoSum {
     }
 
     //一定程度上降低次数
+    //在hashmap 的基础上优化了比较次数 但依然是o(n)
     public int[] twoSum3(int[] nums, int target){
         Map<Integer,Integer> map = new HashMap<Integer, Integer>();
         for(int i = 0;i<nums.length;i++){
             int rest = target-nums[i];
             if(map.get(rest)!=null){
-                return new int[]{i,map.get(rest)};
+                return new int[]{map.get(rest),i};
             }
             map.put(nums[i],i);
         }

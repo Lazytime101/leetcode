@@ -19,6 +19,25 @@ import static constant.Constant.HASHMAP_INIT_NUM;
  * @author lazytime
  */
 public class improveTwoSum {
+
+    //比较推荐的方法
+    //一定程度上降低次数
+    //在hashmap 的基础上优化了比较次数 但依然是o(n)
+    public int[] twoSum3(int[] nums, int target){
+        Map<Integer,Integer> map = new HashMap<Integer, Integer>();
+        for(int i = 0;i<nums.length;i++){
+            int rest = target-nums[i];
+            if(map.get(rest)!=null){
+                return new int[]{map.get(rest),i};
+            }
+            map.put(nums[i],i);
+        }
+        throw new IllegalArgumentException("No two sum solution");
+    }
+
+
+
+
     /**
      * @param nums
      * @param target
@@ -60,19 +79,7 @@ public class improveTwoSum {
         throw new IllegalArgumentException("No two sum solution");
     }
 
-    //一定程度上降低次数
-    //在hashmap 的基础上优化了比较次数 但依然是o(n)
-    public int[] twoSum3(int[] nums, int target){
-        Map<Integer,Integer> map = new HashMap<Integer, Integer>();
-        for(int i = 0;i<nums.length;i++){
-            int rest = target-nums[i];
-            if(map.get(rest)!=null){
-                return new int[]{map.get(rest),i};
-            }
-            map.put(nums[i],i);
-        }
-        throw new IllegalArgumentException("No two sum solution");
-    }
+
 
         //test code is useful
         //first finish work
